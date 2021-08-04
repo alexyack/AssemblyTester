@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AssemblyTester": {
+      "commandName": "Project",
+      "commandLineArgs": "AssemblyTester.dll"
+    }
+  }
+}
