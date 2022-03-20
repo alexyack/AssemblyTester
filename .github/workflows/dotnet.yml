@@ -23,14 +23,4 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: Upload a Build Artifact
-  uses: actions/upload-artifact@v3.0.0
-  with:
-    name: # optional, default is artifact
-    path: 
-Available Options:
-  warn: Output a warning but do not fail the action
-  error: Fail the action with an error message
-  ignore: Do not output any warnings or errors, the action does not fail
-    if-no-files-found: # optional, default is warn
-    retention-days: # optional
+   
